@@ -1,12 +1,12 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
-    "build": {
-      "serve": {
+    "serve": {
         "dependsOn": [
           "build"
         ]
       },
+    "build": {
       "dependsOn": [
         "^build"
       ],
